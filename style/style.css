@@ -1,10 +1,10 @@
 @font-face {
   font-family: hurmeLight;
-  src: url(/fonts/HurmeGeometricSans3\ Light.otf);
+  src: url(../fonts/HurmeGeometricSans3\ Light.otf);
 }
 @font-face {
   font-family: hurmeSemiBold;
-  src: url(/fonts/HurmeGeometricSans3\ SemiBold.otf);
+  src: url(../fonts/HurmeGeometricSans3\ SemiBold.otf);
 }
 
 html {
@@ -46,9 +46,7 @@ color: white;
   background-position: left; 
   background-repeat: no-repeat;
   background-size: auto;
-  animation: slider 16s linear infinite 0s;
-  animation-timing-function: ease-in-out;
-  background-image: url(/img/header-photo.png);
+  background-image: url(../img/header-photo.png);
   background-color: #141515;
 }
 .masthead .masthead-heading {
@@ -104,4 +102,72 @@ color: white;
 }
 .header-logo{
   width: 45%;
+}
+.page-section {
+  min-height: 50vh;
+}
+.page-section-heading {
+font-size: 3rem;
+line-height: 2rem;
+font-family: hurmeSemiBold;
+color: white !important;
+padding-top: 2rem;
+padding-bottom: 4rem;
+}
+@media (min-width: 992px) {
+  .page-section{
+      min-height: 60vh;
+  }
+ .page-section-heading {
+  font-size: 3.5rem;
+  line-height: 2.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.contact-section-heading  {
+    font-size: 4rem;
+    line-height: 2.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+}
+.img-main{
+  width: 80%;
+  border: 6px solid #de7bbc;
+  border-radius: 10px;
+}
+.p-class {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-smooth: auto;
+  color: white;
+}
+@media (min-width: 992px) {
+  .p-class {
+    font-size: 1.2rem;
+  }
+}
+.offer-text{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  line-height: normal;
+}
+.offer-element .offer-text-hidden-default{
+  color: white;
+}
+@media (min-width: 992px) {
+  .offer-text{
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: normal;
+  }
+  .offer-element {
+   margin-bottom: 5rem;
+  }
 }
