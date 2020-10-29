@@ -1,0 +1,107 @@
+@font-face {
+  font-family: hurmeLight;
+  src: url(/fonts/HurmeGeometricSans3\ Light.otf);
+}
+@font-face {
+  font-family: hurmeSemiBold;
+  src: url(/fonts/HurmeGeometricSans3\ SemiBold.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141515;
+
+}
+.navbar {
+  background-color: #de7bbc !important;
+}
+.img-logo {
+  width: 30%;
+}
+@media (min-width: 992px) {
+  .navbar-brand{
+      padding-left: 100px;
+  }
+  .left-nav {
+      padding-right: 100px;
+  }
+  .img-logo {
+      width: 70%;
+  }
+}
+.nav-item{
+  font-family: hurmeSemiBold;
+  font-size: 20px;
+}
+.navbar li a:hover, .navbar-nav li.active a {
+color: white;
+}
+.masthead {
+  min-height: 70vh;
+  padding-top: calc(6rem + 74px);
+  padding-bottom: 6rem;
+  background-position: left; 
+  background-repeat: no-repeat;
+  background-size: auto;
+  animation: slider 16s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: url(/img/header-photo.png);
+  background-color: #141515;
+}
+.masthead .masthead-heading {
+  font-size: 5rem;
+  line-height: 3rem;
+  font-family: hurmeLight;
+}
+.masthead .masthead-subheading {
+  font-size: 2.1rem;
+  font-family: h;
+}
+@media (min-width: 992px) {
+  .masthead {
+      min-height: 100vh;
+    padding-top: calc(6rem + 400px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 8rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+  padding-top: 40px;
+    font-size: 3rem;
+  }
+} 
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.header-logo{
+  width: 45%;
+}
