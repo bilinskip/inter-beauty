@@ -190,12 +190,18 @@ padding-bottom: 4rem;
   border: 5px solid white;
   width: auto;
   height: 150px;
-  padding: 40px;
+  padding: 50px;
   
 } 
+.offer-extend {
+  border: 5px solid white;
+  width: auto;
+  height: 150px;
+  padding: 20px;
+}
 @media (min-width: 400px){
   .offer-container{
-    padding: 50px;
+    padding: 40px;
   }
 }
 .carousel-container {
@@ -237,8 +243,6 @@ padding-bottom: 4rem;
 }
 .contact-line{
   width: 300px;
-  /* margin-left: auto;
-  margin-right: 0px; */
   background-color: white;
   margin-top: 0px;
 }
